@@ -1,0 +1,172 @@
+.jqfeContainer {
+   height: 100%; 
+   background-color: #f2f5f7;
+   overflow: auto;
+}
+
+.jqfeContent {
+   border: none!important;
+}
+
+.jqfeMaster {
+   font-family: Verdana, sans-serif;
+   font-size: 11px;
+   line-height: 18px;
+   padding: 0;
+   margin: 0;
+   border: none!important;
+}
+
+.jqfeMaster li {
+   list-style: none;
+   padding: 0 0 0 18px;
+   margin: 0;
+}
+
+.jqfeMaster li div {
+   padding: 0;
+   padding-right: 10px;
+   margin: 0;
+   white-space: nowrap;
+   word-wrap: none;
+   color: #333333;
+}
+
+.jqfeDir {
+   background: url("../images/jquery.fileExplorer/directory.png") left top no-repeat;
+}
+
+.jqfeOpen { 
+   background: url("../images/jquery.fileExplorer/folder_open.png") left top no-repeat;
+}
+
+.jqfeExtfile { background: url("../images/jquery.fileExplorer/file.png") no-repeat left top; }
+.jqfeExtwait { background: url("../images/jquery.fileExplorer/spinner.gif") no-repeat left top!important; }
+.jqfeExtafp { background: url("../images/jquery.fileExplorer/code.png") no-repeat left top; }
+.jqfeExtafpa { background: url("../images/jquery.fileExplorer/code.png") no-repeat left top; }
+.jqfeExtasp { background: url("../images/jquery.fileExplorer/code.png") no-repeat left top; }
+.jqfeExtaspx { background: url("../images/jquery.fileExplorer/code.png") no-repeat left top; }
+.jqfeExtavi { background: url("../images/jquery.fileExplorer/film.png") no-repeat left top; }
+.jqfeExtbat { background: url("../images/jquery.fileExplorer/application.png") no-repeat left top; }
+.jqfeExtbmp { background: url("../images/jquery.fileExplorer/picture.png") no-repeat left top; }
+.jqfeExtc { background: url("../images/jquery.fileExplorer/code.png") no-repeat left top; }
+.jqfeExtcfm { background: url("../images/jquery.fileExplorer/code.png") no-repeat left top; }
+.jqfeExtcgi { background: url("../images/jquery.fileExplorer/code.png") no-repeat left top; }
+.jqfeExtcom { background: url("../images/jquery.fileExplorer/application.png") no-repeat left top; }
+.jqfeExtcpp { background: url("../images/jquery.fileExplorer/code.png") no-repeat left top; }
+.jqfeExtcss { background: url("../images/jquery.fileExplorer/css.png") no-repeat left top; }
+.jqfeExtdoc { background: url("../images/jquery.fileExplorer/doc.png") no-repeat left top; }
+.jqfeExtexe { background: url("../images/jquery.fileExplorer/application.png") no-repeat left top; }
+.jqfeExtgif { background: url("../images/jquery.fileExplorer/picture.png") no-repeat left top; }
+.jqfeExtfla { background: url("../images/jquery.fileExplorer/flash.png") no-repeat left top; }
+.jqfeExth { background: url("../images/jquery.fileExplorer/code.png") no-repeat left top; }
+.jqfeExthtm { background: url("../images/jquery.fileExplorer/html.png") no-repeat left top; }
+.jqfeExthtml { background: url("../images/jquery.fileExplorer/html.png") no-repeat left top; }
+.jqfeExtjar { background: url("../images/jquery.fileExplorer/java.png") no-repeat left top; }
+.jqfeExtjpg { background: url("../images/jquery.fileExplorer/picture.png") no-repeat left top; }
+.jqfeExtjpeg { background: url("../images/jquery.fileExplorer/picture.png") no-repeat left top; }
+.jqfeExtjs { background: url("../images/jquery.fileExplorer/script.png") no-repeat left top; }
+.jqfeExtlasso { background: url("../images/jquery.fileExplorer/code.png") no-repeat left top; }
+.jqfeExtlog { background: url("../images/jquery.fileExplorer/txt.png") no-repeat left top; }
+.jqfeExtm4p { background: url("../images/jquery.fileExplorer/music.png") no-repeat left top; }
+.jqfeExtmov { background: url("../images/jquery.fileExplorer/film.png") no-repeat left top; }
+.jqfeExtmp3 { background: url("../images/jquery.fileExplorer/music.png") no-repeat left top; }
+.jqfeExtmp4 { background: url("../images/jquery.fileExplorer/film.png") no-repeat left top; }
+.jqfeExtmpg { background: url("../images/jquery.fileExplorer/film.png") no-repeat left top; }
+.jqfeExtmpeg { background: url("../images/jquery.fileExplorer/film.png") no-repeat left top; }
+.jqfeExtogg { background: url("../images/jquery.fileExplorer/music.png") no-repeat left top; }
+.jqfeExtpcx { background: url("../images/jquery.fileExplorer/picture.png") no-repeat left top; }
+.jqfeExtpdf { background: url("../images/jquery.fileExplorer/pdf.png") no-repeat left top; }
+.jqfeExtphp { background: url("../images/jquery.fileExplorer/php.png") no-repeat left top; }
+.jqfeExtpng { background: url("../images/jquery.fileExplorer/picture.png") no-repeat left top; }
+.jqfeExtppt { background: url("../images/jquery.fileExplorer/ppt.png") no-repeat left top; }
+.jqfeExtpsd { background: url("../images/jquery.fileExplorer/psd.png") no-repeat left top; }
+.jqfeExtpl { background: url("../images/jquery.fileExplorer/script.png") no-repeat left top; }
+.jqfeExtpy { background: url("../images/jquery.fileExplorer/script.png") no-repeat left top; }
+.jqfeExtrb { background: url("../images/jquery.fileExplorer/ruby.png") no-repeat left top; }
+.jqfeExtrbx { background: url("../images/jquery.fileExplorer/ruby.png") no-repeat left top; }
+.jqfeExtrhtml { background: url("../images/jquery.fileExplorer/ruby.png") no-repeat left top; }
+.jqfeExtrpm { background: url("../images/jquery.fileExplorer/linux.png") no-repeat left top; }
+.jqfeExtruby { background: url("../images/jquery.fileExplorer/ruby.png") no-repeat left top; }
+.jqfeExtsql { background: url("../images/jquery.fileExplorer/db.png") no-repeat left top; }
+.jqfeExtswf { background: url("../images/jquery.fileExplorer/flash.png") no-repeat left top; }
+.jqfeExttif { background: url("../images/jquery.fileExplorer/picture.png") no-repeat left top; }
+.jqfeExttiff { background: url("../images/jquery.fileExplorer/picture.png") left top no-repeat }
+.jqfeExttxt { background: url("../images/jquery.fileExplorer/txt.png") no-repeat left top; }
+.jqfeExtvb { background: url("../images/jquery.fileExplorer/code.png") no-repeat left top; }
+.jqfeExtwav { background: url("../images/jquery.fileExplorer/music.png") no-repeat left top; }
+.jqfeExtwmv { background: url("../images/jquery.fileExplorer/film.png") no-repeat left top; }
+.jqfeExtxls { background: url("../images/jquery.fileExplorer/xls.png") no-repeat left top; }
+.jqfeExtxml { background: url("../images/jquery.fileExplorer/code.png") no-repeat left top; }
+.jqfeExtzip { background: url("../images/jquery.fileExplorer/zip.png") no-repeat left top; }
+
+.jqfeBtn {
+   height: 20px;
+   width: 20px;
+   margin: 1px;
+   padding: 1px;
+}
+
+.jqfeBtnCf { background: url("../images/jquery.fileExplorer/newdirectory.png") no-repeat center center!important; }
+.jqfeBtnUl { background: url("../images/jquery.fileExplorer/upload.png") no-repeat center center!important; }
+.jqfeBtnRn { background: url("../images/jquery.fileExplorer/rename.png") no-repeat center center!important; }
+.jqfeBtnDl { background: url("../images/jquery.fileExplorer/delete.png") no-repeat center center!important; }
+.jqfeBtnRf { background: url("../images/jquery.fileExplorer/refresh.png") no-repeat center center!important; }
+
+.jqfeSelected {
+   background-color: #d4e0e8!important;
+}
+
+.jqfeSelected .jqfeList{
+   background-color: #f2f5f7!important;
+}
+
+.jqfeMaster {
+   display: block;
+   background-image: none!important;
+   cursor: pointer;
+}
+
+.jqfeMaster li {
+   cursor: pointer;
+}
+
+.jqfeMaster div {
+   display: inline-block;
+   margin-right: 15px!important;
+   padding: 0!important;
+}
+
+.jqfeContent {
+   margin: 0;
+   padding: 0;
+}
+
+.jqfeList {
+   padding-left: 0;
+}
+
+.jqfeList .jqfeList .jqfeList{
+   margin-left: 10px;
+}
+
+.jqfeUl 
+{
+    width: 225px!important;
+}
+
+.jqfeUlOK {
+
+}
+
+.jqfeUlOK span {
+   padding: 1px 5px!important;
+}
+
+.jqfeDialog {
+   font-size: .9em!important;
+}
+
+.jqfeUlFrame {
+   display: none;
+}
